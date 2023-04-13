@@ -17,6 +17,7 @@ RUN apt-get update && \
     docker-php-ext-install -j$(nproc) \
         zip \
         pdo \
+        pdo_mysql \
         pdo_pgsql \
         mbstring \
         exif \
